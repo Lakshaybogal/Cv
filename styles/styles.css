@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+h3 {
+  color: aliceblue;
+  position: relative;
+  left: 1%;
+  margin: 0;
+}
+.hr1 {
+  color: aliceblue;
+  border-width: 5px;
+  border-left: none;
+  border-right: 0;
+  border-bottom: none;
+  top: 5%;
+  margin-top: 0;
+}
+
+.a1:hover {
+  color: #dff6ff;
+}
+.p1 {
+  background-image: url(/HTML/personal_website/images/karl-pawlowicz-QUHuwyNgSA0-unsplash.jpg);
+  background-repeat: no-repeat;
+  font-size: 250%;
+  font-family: "Times New Roman";
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.p2 {
+  font-size: 180%;
+  position: relative;
+  left: 63%;
+  font-weight: bold;
+  font-stretch: condensed;
+  color: aliceblue;
+  font-family: "Times New Roman";
+}
+a {
+  color: aliceblue;
+  padding: none;
+  text-decoration: none;
+}
+
+.intro {
+  text-align: center;
+  color: aliceblue;
+  font-family: "Sacramento";
+  font-size: 70px;
+  margin-bottom: 0%;
+}
+.intro2 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 45px;
+  margin-top: 0%;
+}
+span {
+  text-decoration: underline;
+  font-weight: 900;
+}
+.intro3 {
+  color: aliceblue;
+  font-style: italic;
+  text-align: center;
+  font-size: 40px;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+html,
+.p1 {
+  min-height: 30%;
+  background-size: cover;
+  background-position: center center;
+}
+.cont1 {
+  font-size: 170%;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  position: relative;
+  top: 15%;
+  bottom: 10%;
+  left: 42%;
+  padding: 0%;
+}
+.cont2 {
+  font-size: 170%;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  position: relative;
+  bottom: 10%;
+  top: 15%;
+  left: 44%;
+  padding: 0%;
+}
+.cont3 {
+  font-size: 170%;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  position: relative;
+  bottom: 10%;
+  top: 15%;
+  left: 37%;
+  padding: 0%;
+}
+
+.contdiv {
+  height: 10%;
+}
+.contimg1 {
+  height: 56%;
+  position: relative;
+  left: 50%;
+  bottom: 10%;
+}
+.main-item {
+  padding: 10px;
+  background-color: black;
+  width: 100%;
+}
+
+.background-masker {
+  background-color: #fff;
+  position: absolute;
+}
+
+.btn-divide-left {
+  top: 0;
+  left: 25%;
+  height: 100%;
+  width: 5%;
+}
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -800px 0;
+  }
+  100% {
+    background-position: 800px 0;
+  }
+}
+
+.animated-background {
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background-color: black;
+  background: linear-gradient(to right, #eeeeee 8%, #bbbbbb 18%, #eeeeee 33%);
+  background-size: 800px 104px;
+  height: 70px;
+  width: 100%;
+  position: relative;
+}
+
+.static-background {
+  background-color: #f6f7f8;
+  background-size: 800px 104px;
+  height: 70px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.shared-dom {
+  width: 800px;
+  height: 110px;
+}
+.sub-rect {
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin: 20px 20px 20px 0;
+}
+.pure-background {
+  background-color: #eee;
+}
+
+.css-dom:empty {
+  margin: 20px;
+  width: 280px;
+  height: 220px;
+  border-radius: 6px;
+  box-shadow: 0 10px 45px rgba(0, 0, 0, 0.2);
+  background-repeat: no-repeat;
+
+  background-image: radial-gradient(circle 16px, lightgray 99%, transparent 0),
+    linear-gradient(lightgray, lightgray), linear-gradient(lightgray, lightgray),
+    linear-gradient(lightgray, lightgray), linear-gradient(lightgray, lightgray),
+    linear-gradient(#fff, #fff);
+
+  background-size: 32px 32px, 200px 32px, 180px 32px, 230px 16px, 100% 40px,
+    280px 100%;
+
+  background-position: 24px 30px, 66px 30px, 24px 90px, 24px 142px, 0 180px, 0 0;
+}
